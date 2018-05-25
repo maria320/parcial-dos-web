@@ -1,7 +1,7 @@
 {
-  "name": "preparcial",
+  "name": "parcial",
   "version": "1.0.0",
-  "description": "pre repaso de lo basico",
+  "description": "BurbanoFrancoAna_parcialWeb",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/nodemon index.js"
