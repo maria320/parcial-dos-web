@@ -15,10 +15,18 @@ app.use(express.static('public'));
 app.listen(3000, function(){
     console.log('listo!');
 });
-app.get('/index',(req, res) => {
-    res.render('index', {
-        texto: 'hola',
-        x: 'División',
-        y:7
+app.get('/contacto',(req, res) => {
+    res.render('contacto', {
+       titulo:'Contacto'
+    });
+});
+app.get('/inicio',(req, res) => {
+    res.render('inicio', {
+       titulo:'Inicio'
+    });
+});
+app.get('/proyectos',(req, res) => {
+    res.render('proyectos', {
+       titulo:'Proyectos'
     });
 });
