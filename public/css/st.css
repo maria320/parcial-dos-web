@@ -1,4 +1,25 @@
-.header {
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700");
+.uno {
+  width: 100%;
+  height: 5em;
   background: #0EAA65;
+  color: #fff;
+  font-size: 50px;
+  font-family: "Nunito", sans-serif;
+  margin: 5%;
+}
+
+.bot {
+  margin-top: 20em;
+}
+
+.bot .botones {
+  background: #0EAA65;
+  margin: 2%;
+  font-size: 2em;
+  color: #fff;
+  padding: 2% 0 2% 5%;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
 }
 /*# sourceMappingURL=st.css.map */

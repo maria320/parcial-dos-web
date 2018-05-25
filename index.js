@@ -1,5 +1,6 @@
 
 
+
 const express = require('express'),
       consolidate = require('consolidate'),
       hbs = require('handlebars');
@@ -17,16 +18,19 @@ app.listen(3000, function(){
 });
 app.get('/contacto',(req, res) => {
     res.render('contacto', {
-       titulo:'Contacto'
+       titulo:'Contacto',
+      // a=0+1
     });
 });
 app.get('/inicio',(req, res) => {
     res.render('inicio', {
-       titulo:'Inicio'
+       titulo:'Inicio',
+      // b=0+1
     });
 });
 app.get('/proyectos',(req, res) => {
     res.render('proyectos', {
-       titulo:'Proyectos'
+       titulo:'Proyectos',
+      // c=0+1
     });
 });
