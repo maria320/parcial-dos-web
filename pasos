@@ -1,0 +1,24 @@
+npm init
+rellenar
+copiar y pegar "start": "./node_modules/.bin/nodemon index.js"
+consola = npm i express nodemon handlebars consolidate
+lamar dependencias en el js
+    const express = require('express'),
+        consolidate = require('consolidate'),
+        hbs = require('handlebars');
+
+lamar un variable que llame a express var app = express();
+
+acomodo el codigo de hander para crear nuevos 
+        app.engine('hbs', consolidate.handlebars);
+        app.set('view engine', 'hbs');
+        app.set('views', './views');
+
+express llama todo lo que esta en la carpeta public 
+        app.use(express.static('public'));
+
+
+para que escuche el puerto se hace esto 
+        app.listen(3000, function(){
+        console.log('listo!');
+        });
